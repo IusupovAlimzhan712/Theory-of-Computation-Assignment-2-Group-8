@@ -77,19 +77,19 @@ RB -> ]
 
 Applying CYK-Algorithm:
 
-+––––+––––+––––+––––+––––+
++----+----+----+----+----+
 | i  | [  | j  | (  | ]  |
-+––––+––––+––––+––––+––––+
++----+----+----+----+----+
 | I  | LB | J  | LP | RB |
-+––––+––––+––––+––––+––––+
++----+----+----+----+----+
 | -  | -  | -  | -  |
-+––––+––––+––––+––––+
++----+----+----+----+
 | -  | -  | -  |
-+––––+––––+––––+
++----+----+----+
 | -  | Q  |
-+––––+––––+
++----+----+
 | S  |
-+––––+
++----+
 
 The word i[j(] is an element of the CFG G and can be derived from it.
 ```
@@ -104,11 +104,11 @@ G = ({test, token}, {S, R, T, Q, I, J, LP, LB, RB, X1, X2, X3, X4, X5, X6, X7, X
 
 Applying CYK-Algorithm:
 
-+—––––––+––––––––+
++-------+--------+
 | test  | token  |
-+—––––––+––––––––+
++-------+--------+
 | -     | -      |
-+—––––––+––––––––+
++-------+--------+
 
-The word “test token” is not an element of the CFG G and can not be derived from it.
+The word "test token" is not an element of the CFG G and can not be derived from it.
 ---
