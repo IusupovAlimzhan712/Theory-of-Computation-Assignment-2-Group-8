@@ -19,7 +19,7 @@ S R T Q I J LP LB RB X1 X2 X3 X4 X5 X6 X7 X8   -> Non-Terminals
 S I X2                                         -> 4th and all following lines are production rules
 X2 X1 RB                                       -> You can add multiple rules from one terminal by seperating via whitespace
 X1 LB R                                        -> This reads as X1 -> LB R
-R J X5 T Q                                     -> Multiple productions can be written on the same line
+R J X5 T Q                                     -> This reads as R -> J X5 | T Q
 X5 X4 RB
 X4 X3 T
 X3 LB Q
